@@ -43,7 +43,7 @@ a{cursor:default;}
 #wrap .Ul_small{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
 
     height: 96px;
     /*background-color: green;*/
