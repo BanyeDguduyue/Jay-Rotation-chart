@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #454145;
+}
+
+#wrap{
+    width: 400px;
+    height: 437px;
+    /*background-color: red;*/
+    margin: 100px auto;
+
+    position: relative;
+
+    overflow: hidden;
+    background-color: dimgrey;
+}
+
+#wrap .Ul_large li{
+    width: 400px;
+    height: 321px;
+    /*background-color: skyblue;*/
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    list-style: none;
+    overflow: hidden;
+}
+
+
+#wrap .Ul_small{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 96px;
+    /*background-color: green;*/
+
+}
+
+#wrap .Ul_small li{
+    width: 120px;
+    height: 96px;
+    float: left;
+
+    /*background-color: gold;*/
+
+    padding-left: 10px;
+    list-style: none;
+
+    opacity: 0.6;
+    filter: alpha(opacity:60);
+
+    cursor: pointer;
+}
+
+#right_btn{
+    display: block;
+
+    width: 200px;
+    height: 321px;
+
+    /*background-color: pink;*/
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 998;
+}
+#left_btn{
+    display: block;
+
+    width: 200px;
+    height: 321px;
+
+    /*background-color: purple;*/
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 998;
+}
+
+#pre{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+
+    position: absolute;
+    top: 145px;
+    left: 5px;
+    background: url("../images/icon-normal.png") no-repeat #d0c4af 0 -4700px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+
+    transition: opacity 1s;
+
+}
+#next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+
+    position: absolute;
+    top: 145px;
+    right: 5px;
+    background: url("../images/icon-normal.png") no-repeat 0 -4880px  #d0c4af ;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+
+    transition: opacity 1s;
+
+}
+
+
+#right_btn:hover #next{
+    opacity: 1;
+}
+#left_btn:hover #pre{
+    opacity: 1;
+}
