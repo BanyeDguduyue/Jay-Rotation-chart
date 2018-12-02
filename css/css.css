@@ -77,6 +77,8 @@ a:hover {
     right: 0;
     top: 0;
     z-index: 998;
+    
+    cursor：default;
 }
 #left_btn{
     display: block;
@@ -90,6 +92,7 @@ a:hover {
     left: 0;
     top: 0;
     z-index: 998;
+    cursor：default;
 }
 
 #pre{
