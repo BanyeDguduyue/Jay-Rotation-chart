@@ -182,7 +182,7 @@ window.onload = function ()
 
 
 //自动播放
-        clearInterval(timer);       
+             
     var timer=setInterval(next.onclick,2000);
         
     wrap.onmouseover = function () {
